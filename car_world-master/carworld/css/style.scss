@@ -1,0 +1,715 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: black;
+    padding: 15px;
+    color: white;
+    span{
+        position: relative;
+        cursor: pointer;
+        i{
+            color: orangered;
+            padding: 0px 5px !important;
+        }
+    }
+    .inside{
+        border-top: 2px solid orange;
+        display: none;
+        position: absolute;
+        background-color: black;
+        top: 150%;
+        left: 5%;
+        width: 190px;
+        color: white;
+        z-index: 999;
+        padding: 10px;
+        text-align: left;
+        p{
+            padding: 8px 10px;
+        }
+    }
+    .inside2{
+        border-top: 2px solid orangered;
+        display: none;
+        position: absolute;
+        background-color: black;
+        top: 150%;
+        right: 15%;
+        width: 190px;
+        color: white;
+        z-index: 999;
+        padding: 10px;
+        text-align: left;
+        p{
+            padding: 8px 10px;
+        }
+    }
+    .span1{
+        padding: 0px 10px;
+        border-right: 1px solid gray;
+        i{
+            color: orangered;
+            padding: 0px 5px !important;
+        }
+    }
+    i{
+        padding: 0px 8px;
+    }
+    button{
+        background-color: orangered;
+        color: white;
+        border: none;
+        padding: 3px 5px;
+    }
+}
+
+.header-phone{
+    display: none;
+    background-color: black;
+    padding: 15px;
+    color: white;
+    .span3{
+        position: relative;
+        padding-right: 10px;
+        cursor: pointer;
+        i{
+            color: orangered;
+            padding: 0px 5px !important;
+        }
+    }
+    .inside{
+        border-top: 2px solid orange;
+        display: none;
+        position: absolute;
+        background-color: black;
+        top: 7%;
+        left: 25%;
+        width: 190px;
+        color: white;
+        z-index: 999;
+        padding: 10px;
+        text-align: left;
+        p{
+            padding: 8px 10px;
+        }
+    }
+    button{
+        background-color: orangered;
+        color: white;
+        border: none;
+        padding: 3px 5px;
+    }
+}
+
+.header2{
+    .container{
+        padding: 20px 3px;
+        border-right: 1px solid gray;
+        border-left: 1px solid gray;
+        .all{
+            .col-lg-10{
+                padding: 0%;
+                margin: 0%;
+                .dropdown{
+                    position: relative;
+                    display: inline-block;
+                    font-size: 16px;
+                    margin: 5px 20px;
+                    font-weight: bold;
+                    &:hover{
+                        .dropbtn{
+                            color: #6c757d;
+                        }
+                        .drop-content{
+                            background-color:#fcfcfc;
+                            visibility: visible;
+                            top: 150%;
+                            transition: 0.2s;
+                            color: black;
+                        }
+                    }
+                    .drop-content{
+                        background-color: #778597;
+                        padding: 20px;
+                        position: absolute;
+                        min-width: 200px;
+                        top: 220%;
+                        left: 0%;
+                        visibility: hidden;
+                        transition: 0.2s;
+                        z-index: 999;
+                        a{
+                            text-align:left;
+                            padding: 10px 0px;
+                            display: block;
+                            text-decoration: none;
+                            color: black;
+                            &:hover{
+                                color: orangered;
+                            }
+                        }           
+                    }
+                    .dropbtn{
+                        color: black;
+                        text-decoration: none;
+                    }
+                }
+    
+            }
+        }
+
+    }
+
+}
+
+.header2-phone{
+    display: none;
+    margin: auto;
+    .container{
+        position: relative;
+        overflow: hidden;
+        .bar{
+            padding: 10px;
+            background-color: orangered;
+            color: white;
+            margin-bottom: 10px;
+        }
+        .inside3{
+            text-align: center;
+            position: relative;
+            display: none;
+            font-size: 20px;
+            font-weight: bold;
+            overflow: hidden;
+            left: -150%;
+            min-width:550px;
+            background-color: orangered;
+            button{
+                width: 100%;
+                outline: none;
+                margin: auto;
+                background-color: transparent;
+                padding: 10px 50px;
+                cursor: pointer;
+                list-style: none;
+                font-weight: bold;
+                color: white;
+                display: block;
+                text-align: center;
+            }
+            .panel{
+                transition: 0.9s;
+                position: relative;
+                display: none;
+                text-align: center;
+                p{
+                    cursor: pointer;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+.header3{
+    .container{
+        background-color: #fcfcfc;
+        border-right: 1px solid gray;
+        border-left: 1px solid gray;
+        .box{
+            padding: 10px 3px;
+            border-right: 1px solid gray;
+            span{
+                font-size: 15px;
+            }
+            i{
+                color: orangered;
+                padding-right: 10px;
+                font-size: 20px;
+            }
+            .search{
+                padding-right: 0px !important; 
+                padding-left: 5px;
+            }
+            input{
+                border: none;
+                outline: none;
+                border-right: 1px solid gray;
+                margin-right: 50px;
+                padding:0px 5px;
+                background-color: #fcfcfc;
+            }
+        }
+        .end{
+            border: none !important;
+        }
+    }
+
+}
+.header3-phone{
+    display: none;
+    padding-top: 20px;
+    .container{
+        background-color: #fcfcfc;
+        .box{
+            padding: 10px 3px;
+            span{
+                font-size: 15px;
+            }
+            i{
+                color: orangered;
+                padding-right: 10px;
+                font-size: 20px;
+            }
+        }
+    }
+
+}
+
+
+.sliderall{
+    position: relative;
+    overflow: hidden;
+    .slick-next{
+        right: 90px;
+        &::before{
+            padding: 10px;
+            background-color: rgba(0,0,0,0.30);
+            font-size: 32px;
+            font-weight: bold;
+            border: 1px solid gray;
+            transition: 0.5s;
+        }
+        &:hover{
+            &::before{
+                background-color: white;
+                color: orangered;
+            }
+        }
+;
+    }
+    .slick-prev{
+        z-index: 999;
+        left: 50px;
+        &::before{
+            padding: 10px;
+            background-color: rgba(0,0,0,0.30);
+            font-size: 32px;
+            font-weight: bold;
+            border: 1px solid gray;
+            transition: 0.5s;
+        }
+        &:hover{
+            &::before{
+                background-color: white;
+                color: orangered;
+            }
+
+        }
+    }
+    .image{
+        position: relative;
+        .image-text{
+            padding: 30px;
+            background-color: rgba(0,0,0,0.30);
+            color: white;
+            position: absolute;
+            top: 20%;
+            left:50%;
+            button{
+                font-weight: bold;
+                background-color: orangered;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+            }
+        }
+    }    
+}
+
+.sliderall-phone{
+    display: none;
+    overflow: hidden;
+    background-image: url(http://t.commonsupport.com/carworld/images/main-slider/image-1.jpg);
+    background-size: cover;
+    padding: 50px 70px 50px 10px;
+    background-repeat: no-repeat;
+        .image-text{
+            padding: 10px;
+            background-color: rgba(0,0,0,0.30);
+            color: white;
+            span{
+                font-size: 20px;
+            }
+            button{
+                outline: none;
+                font-weight: bold;
+                background-color: orangered;
+                color: white;
+                border: none;
+            }
+        }
+}
+
+
+.opentab{
+    margin-top: -35px;
+    background-color: white;
+    button{
+        padding: 10px 20px;
+        background-color: white;
+        color: black;
+        font-size: 24px;
+        margin: 0;
+        font-weight: bold;
+        border: none;
+        text-align: left;
+        outline: none;
+        border-top: 2px solid orangered;
+        &:hover{
+            background-color: orangered;
+            color: white;
+        }
+    }
+    .text{
+        padding: 30px;
+        box-shadow: 5px 5px 15px 5px #7F7979;
+        select{
+            font-size: 20px;
+            padding: 10px 25px;
+            background-color: #f7f7f7;
+            option{
+                font-size: 20px;
+            }
+        }
+        button{
+            background-color: orangered;
+            color: white;
+            border: none;
+            margin-left: 20px;
+        }
+    }
+    
+}
+
+
+.popular{
+    .container{
+        position: relative;
+        padding: 40px 0px 10px 0px;
+        font-size: 36px;
+        color: black;
+        font-weight: bold;
+        border-bottom: 1px solid gray;
+        &::before{
+            position: absolute;
+            bottom: -2%;
+            width: 100px;
+            height: 5px;
+            left: 0;
+            content: '';
+            background-color: orangered;
+        }
+    }
+}
+
+.cars{
+    padding: 50px 0px;
+    .box{  
+        margin:0;
+        cursor: pointer;
+        .image{
+            margin:0;
+            border: 1px solid #f7f7f7;
+            border-bottom: none;
+            position: relative;
+            .box-text{
+                transition: 0.4s;
+                clip-path: polygon(25% 0, 100% 0%, 100% 100%, 0% 100%);
+                position: absolute;
+                background-color: #f7f7f7;
+                color: black;
+                font-weight: 600;
+                width: 80px;
+                height: 30px;
+                text-align: right;
+                right: 0;
+                bottom: 0;
+                padding: 5px;
+            } 
+        }   
+        .image-text{
+            padding-top: 15px;
+            background-color: #f7f7f7;
+            border: 1px solid #f7f7f7;
+            border-top: none;
+            text-align: center;
+            h6{
+                padding-bottom: 10px;
+            }
+            span{
+                color: #848484;
+                padding: 5px;
+                i{
+                    padding: 0px 5px;
+                }
+            }
+        } 
+        &:hover{
+                .box-text{
+                    color: white;
+                    background-color: orangered;
+                }
+                .image-text{
+                    h6{
+                        color: orangered;
+                    }
+                }
+            }
+        }
+    }
+
+.counterup{
+    background-image: url(http://t.commonsupport.com/carworld/images/background/1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color:rgba(35,38,40,0.96);
+    position: relative;
+    &::before{
+        position: absolute;
+        content: '';
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(35,38,40,0.96);
+    }
+    i{
+        color: orangered;
+        z-index: 999;
+        font-size: 45px;
+        padding: 0px 10px;
+    }
+    .texts{
+        .counter{
+            color:white;
+            font-size: 32px;
+            margin: 0;
+            padding: 0;
+        }
+    }
+    button{
+        margin-top: 10px;
+        background-color: rgba(35,38,40,0.96);
+        border: 1px solid #303436;
+        color: white;
+        font-size: 24px;
+        font-weight: normal;
+    }
+        
+}
+
+
+.popularused{
+    border-bottom: 1px solid gray;
+    .container{
+        text-align: center;
+        position: relative;
+        padding: 40px 0px 10px 0px;
+        font-size: 36px;
+        color: black;
+        font-weight: bold;
+        &::before{
+            position: absolute;
+            bottom: -2%;
+            width: 100px;
+            height: 5px;
+            left: 50%;
+            content: '';
+            background-color: orangered;
+        }
+    }
+}
+
+.icons{
+    .box{
+        border: 1px solid #f7f7f7;
+        text-align: center;
+        padding: 0;
+        p{
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 18px;
+            transition: 0.7s;
+            &:hover{
+                color: orangered;
+            }
+        }
+        i{
+            cursor: pointer;
+            font-size: 32px;
+            color: #f7f7f7;;
+            margin: 20px 0px;
+            transition: 0.7s;
+            padding: 20px;
+            border-radius: 50%;
+            border: 1px solid #f7f7f7;
+            &:hover{
+                color: white;
+                background-color: orangered;
+            }
+        }
+    }
+    
+}
+
+.usedcars{
+    background-color: white;
+    padding: 50px 0px;
+    .box{
+        position: relative;
+        text-align: center;
+        border: 1px solid #f7f7f7;
+        padding: 3px 0px;
+        span{
+            font-size: 18px;
+            color: black;
+        }
+        i{
+            color: #f7f7f7;
+            font-size: 20px;
+        }
+        &::before{
+            display: none;
+            clip-path: polygon(54% 100%, 0 0, 100% 0);
+            position: absolute;
+            bottom: -44%;
+            width: 25px;
+            height: 15px;
+            left: 40%;
+            content: '';
+            background-color: white;
+        }
+        &:hover{
+            background-color: orangered;
+            span{
+                color: white;
+            }
+            &::before{
+                display: block;
+                background-color: orangered;
+            }
+        }
+    }
+    .box:nth-child(2) {
+        position: relative;
+        background-color: orangered;
+        span{
+            color: white;
+        }
+        &::before{
+            display: block;
+            clip-path: polygon(54% 100%, 0 0, 100% 0);
+            position: absolute;
+            bottom: -44%;
+            width: 25px;
+            height: 15px;
+            left: 40%;
+            content: '';
+            background-color:orangered;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .header{
+        display: none;
+    }
+    .header2{
+        display: none;
+    }
+    .header3{
+        display: none;
+    }
+    .header-phone{
+        display: block;
+    }
+    .header2-phone{
+        display: block;
+    }
+    .header3-phone{
+        display: block;
+    }
+    .sliderall{
+        display: none;
+    }
+    .sliderall-phone{
+        display: block;
+    }
+    .opentab{
+        margin: auto;
+        text-align: center;
+        .text{
+            select{
+                font-size: 16px;
+                margin-bottom: 20px;
+            }
+            button{
+                margin-left: 0px;
+                text-align: center;
+            }
+        }
+    }
+    .popular{
+        .box-text{
+            font-size: 24px;
+            text-align: left;
+        }
+    }
+    .cars{
+        .box{
+            .image-text{
+                text-align: left;
+            }
+        }  
+    }
+    .counterup{
+        .box{
+            margin-top: 20px;
+        }
+    }
+    .popularused{
+        .box-text{
+            font-size: 24px;
+            &::before{
+                left: 40%;
+            }
+        }
+            
+    }
+    .usedcars{
+        .box{
+            margin-top: 20px;
+            &::before{
+                left: 50%;
+            }
+            i{
+                display: none;
+            }
+        }
+        .box:nth-child(2) {
+            background-color: orangered;
+            &::before{
+                left: 50%;
+            }
+            i{
+                display: none;
+            }
+        }
+    }
+}

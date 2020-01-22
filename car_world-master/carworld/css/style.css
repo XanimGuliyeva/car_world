@@ -1,0 +1,681 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: black;
+  padding: 15px;
+  color: white;
+}
+.header span {
+  position: relative;
+  cursor: pointer;
+}
+.header span i {
+  color: orangered;
+  padding: 0px 5px !important;
+}
+.header .inside {
+  border-top: 2px solid orange;
+  display: none;
+  position: absolute;
+  background-color: black;
+  top: 150%;
+  left: 5%;
+  width: 190px;
+  color: white;
+  z-index: 999;
+  padding: 10px;
+  text-align: left;
+}
+.header .inside p {
+  padding: 8px 10px;
+}
+.header .inside2 {
+  border-top: 2px solid orangered;
+  display: none;
+  position: absolute;
+  background-color: black;
+  top: 150%;
+  right: 15%;
+  width: 190px;
+  color: white;
+  z-index: 999;
+  padding: 10px;
+  text-align: left;
+}
+.header .inside2 p {
+  padding: 8px 10px;
+}
+.header .span1 {
+  padding: 0px 10px;
+  border-right: 1px solid gray;
+}
+.header .span1 i {
+  color: orangered;
+  padding: 0px 5px !important;
+}
+.header i {
+  padding: 0px 8px;
+}
+.header button {
+  background-color: orangered;
+  color: white;
+  border: none;
+  padding: 3px 5px;
+}
+
+.header-phone {
+  display: none;
+  background-color: black;
+  padding: 15px;
+  color: white;
+}
+.header-phone .span3 {
+  position: relative;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.header-phone .span3 i {
+  color: orangered;
+  padding: 0px 5px !important;
+}
+.header-phone .inside {
+  border-top: 2px solid orange;
+  display: none;
+  position: absolute;
+  background-color: black;
+  top: 7%;
+  left: 25%;
+  width: 190px;
+  color: white;
+  z-index: 999;
+  padding: 10px;
+  text-align: left;
+}
+.header-phone .inside p {
+  padding: 8px 10px;
+}
+.header-phone button {
+  background-color: orangered;
+  color: white;
+  border: none;
+  padding: 3px 5px;
+}
+
+.header2 .container {
+  padding: 20px 3px;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+}
+.header2 .container .all .col-lg-10 {
+  padding: 0%;
+  margin: 0%;
+}
+.header2 .container .all .col-lg-10 .dropdown {
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 20px;
+  font-weight: bold;
+}
+.header2 .container .all .col-lg-10 .dropdown:hover .dropbtn {
+  color: #6c757d;
+}
+.header2 .container .all .col-lg-10 .dropdown:hover .drop-content {
+  background-color: #fcfcfc;
+  visibility: visible;
+  top: 150%;
+  transition: 0.2s;
+  color: black;
+}
+.header2 .container .all .col-lg-10 .dropdown .drop-content {
+  background-color: #778597;
+  padding: 20px;
+  position: absolute;
+  min-width: 200px;
+  top: 220%;
+  left: 0%;
+  visibility: hidden;
+  transition: 0.2s;
+  z-index: 999;
+}
+.header2 .container .all .col-lg-10 .dropdown .drop-content a {
+  text-align: left;
+  padding: 10px 0px;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+.header2 .container .all .col-lg-10 .dropdown .drop-content a:hover {
+  color: orangered;
+}
+.header2 .container .all .col-lg-10 .dropdown .dropbtn {
+  color: black;
+  text-decoration: none;
+}
+
+.header2-phone {
+  display: none;
+  margin: auto;
+}
+.header2-phone .container {
+  position: relative;
+  overflow: hidden;
+}
+.header2-phone .container .bar {
+  padding: 10px;
+  background-color: orangered;
+  color: white;
+  margin-bottom: 10px;
+}
+.header2-phone .container .inside3 {
+  text-align: center;
+  position: relative;
+  display: none;
+  font-size: 20px;
+  font-weight: bold;
+  overflow: hidden;
+  left: -150%;
+  min-width: 550px;
+  background-color: orangered;
+}
+.header2-phone .container .inside3 button {
+  width: 100%;
+  outline: none;
+  margin: auto;
+  background-color: transparent;
+  padding: 10px 50px;
+  cursor: pointer;
+  list-style: none;
+  font-weight: bold;
+  color: white;
+  display: block;
+  text-align: center;
+}
+.header2-phone .container .inside3 .panel {
+  transition: 0.9s;
+  position: relative;
+  display: none;
+  text-align: center;
+}
+.header2-phone .container .inside3 .panel p {
+  cursor: pointer;
+  color: white;
+}
+
+.header3 .container {
+  background-color: #fcfcfc;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+}
+.header3 .container .box {
+  padding: 10px 3px;
+  border-right: 1px solid gray;
+}
+.header3 .container .box span {
+  font-size: 15px;
+}
+.header3 .container .box i {
+  color: orangered;
+  padding-right: 10px;
+  font-size: 20px;
+}
+.header3 .container .box .search {
+  padding-right: 0px !important;
+  padding-left: 5px;
+}
+.header3 .container .box input {
+  border: none;
+  outline: none;
+  border-right: 1px solid gray;
+  margin-right: 50px;
+  padding: 0px 5px;
+  background-color: #fcfcfc;
+}
+.header3 .container .end {
+  border: none !important;
+}
+
+.header3-phone {
+  display: none;
+  padding-top: 20px;
+}
+.header3-phone .container {
+  background-color: #fcfcfc;
+}
+.header3-phone .container .box {
+  padding: 10px 3px;
+}
+.header3-phone .container .box span {
+  font-size: 15px;
+}
+.header3-phone .container .box i {
+  color: orangered;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+.sliderall {
+  position: relative;
+  overflow: hidden;
+}
+.sliderall .slick-next {
+  right: 90px;
+}
+.sliderall .slick-next::before {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 32px;
+  font-weight: bold;
+  border: 1px solid gray;
+  transition: 0.5s;
+}
+.sliderall .slick-next:hover::before {
+  background-color: white;
+  color: orangered;
+}
+.sliderall .slick-prev {
+  z-index: 999;
+  left: 50px;
+}
+.sliderall .slick-prev::before {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 32px;
+  font-weight: bold;
+  border: 1px solid gray;
+  transition: 0.5s;
+}
+.sliderall .slick-prev:hover::before {
+  background-color: white;
+  color: orangered;
+}
+.sliderall .image {
+  position: relative;
+}
+.sliderall .image .image-text {
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+}
+.sliderall .image .image-text button {
+  font-weight: bold;
+  background-color: orangered;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+}
+
+.sliderall-phone {
+  display: none;
+  overflow: hidden;
+  background-image: url(http://t.commonsupport.com/carworld/images/main-slider/image-1.jpg);
+  background-size: cover;
+  padding: 50px 70px 50px 10px;
+  background-repeat: no-repeat;
+}
+.sliderall-phone .image-text {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+.sliderall-phone .image-text span {
+  font-size: 20px;
+}
+.sliderall-phone .image-text button {
+  outline: none;
+  font-weight: bold;
+  background-color: orangered;
+  color: white;
+  border: none;
+}
+
+.opentab {
+  margin-top: -35px;
+  background-color: white;
+}
+.opentab button {
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  font-size: 24px;
+  margin: 0;
+  font-weight: bold;
+  border: none;
+  text-align: left;
+  outline: none;
+  border-top: 2px solid orangered;
+}
+.opentab button:hover {
+  background-color: orangered;
+  color: white;
+}
+.opentab .text {
+  padding: 30px;
+  box-shadow: 5px 5px 15px 5px #7F7979;
+}
+.opentab .text select {
+  font-size: 20px;
+  padding: 10px 25px;
+  background-color: #f7f7f7;
+}
+.opentab .text select option {
+  font-size: 20px;
+}
+.opentab .text button {
+  background-color: orangered;
+  color: white;
+  border: none;
+  margin-left: 20px;
+}
+
+.popular .container {
+  position: relative;
+  padding: 40px 0px 10px 0px;
+  font-size: 36px;
+  color: black;
+  font-weight: bold;
+  border-bottom: 1px solid gray;
+}
+.popular .container::before {
+  position: absolute;
+  bottom: -2%;
+  width: 100px;
+  height: 5px;
+  left: 0;
+  content: '';
+  background-color: orangered;
+}
+
+.cars {
+  padding: 50px 0px;
+}
+.cars .box {
+  margin: 0;
+  cursor: pointer;
+}
+.cars .box .image {
+  margin: 0;
+  border: 1px solid #f7f7f7;
+  border-bottom: none;
+  position: relative;
+}
+.cars .box .image .box-text {
+  transition: 0.4s;
+  clip-path: polygon(25% 0, 100% 0%, 100% 100%, 0% 100%);
+  position: absolute;
+  background-color: #f7f7f7;
+  color: black;
+  font-weight: 600;
+  width: 80px;
+  height: 30px;
+  text-align: right;
+  right: 0;
+  bottom: 0;
+  padding: 5px;
+}
+.cars .box .image-text {
+  padding-top: 15px;
+  background-color: #f7f7f7;
+  border: 1px solid #f7f7f7;
+  border-top: none;
+  text-align: center;
+}
+.cars .box .image-text h6 {
+  padding-bottom: 10px;
+}
+.cars .box .image-text span {
+  color: #848484;
+  padding: 5px;
+}
+.cars .box .image-text span i {
+  padding: 0px 5px;
+}
+.cars .box:hover .box-text {
+  color: white;
+  background-color: orangered;
+}
+.cars .box:hover .image-text h6 {
+  color: orangered;
+}
+
+.counterup {
+  background-image: url(http://t.commonsupport.com/carworld/images/background/1.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: rgba(35, 38, 40, 0.96);
+  position: relative;
+}
+.counterup::before {
+  position: absolute;
+  content: '';
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(35, 38, 40, 0.96);
+}
+.counterup i {
+  color: orangered;
+  z-index: 999;
+  font-size: 45px;
+  padding: 0px 10px;
+}
+.counterup .texts .counter {
+  color: white;
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+}
+.counterup button {
+  margin-top: 10px;
+  background-color: rgba(35, 38, 40, 0.96);
+  border: 1px solid #303436;
+  color: white;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.popularused {
+  border-bottom: 1px solid gray;
+}
+.popularused .container {
+  text-align: center;
+  position: relative;
+  padding: 40px 0px 10px 0px;
+  font-size: 36px;
+  color: black;
+  font-weight: bold;
+}
+.popularused .container::before {
+  position: absolute;
+  bottom: -2%;
+  width: 100px;
+  height: 5px;
+  left: 50%;
+  content: '';
+  background-color: orangered;
+}
+
+.icons .box {
+  border: 1px solid #f7f7f7;
+  text-align: center;
+  padding: 0;
+}
+.icons .box p {
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.7s;
+}
+.icons .box p:hover {
+  color: orangered;
+}
+.icons .box i {
+  cursor: pointer;
+  font-size: 32px;
+  color: #f7f7f7;
+  margin: 20px 0px;
+  transition: 0.7s;
+  padding: 20px;
+  border-radius: 50%;
+  border: 1px solid #f7f7f7;
+}
+.icons .box i:hover {
+  color: white;
+  background-color: orangered;
+}
+
+.usedcars {
+  background-color: white;
+  padding: 50px 0px;
+}
+.usedcars .box {
+  position: relative;
+  text-align: center;
+  border: 1px solid #f7f7f7;
+  padding: 3px 0px;
+}
+.usedcars .box span {
+  font-size: 18px;
+  color: black;
+}
+.usedcars .box i {
+  color: #f7f7f7;
+  font-size: 20px;
+}
+.usedcars .box::before {
+  display: none;
+  clip-path: polygon(54% 100%, 0 0, 100% 0);
+  position: absolute;
+  bottom: -44%;
+  width: 25px;
+  height: 15px;
+  left: 40%;
+  content: '';
+  background-color: white;
+}
+.usedcars .box:hover {
+  background-color: orangered;
+}
+.usedcars .box:hover span {
+  color: white;
+}
+.usedcars .box:hover::before {
+  display: block;
+  background-color: orangered;
+}
+.usedcars .box:nth-child(2) {
+  position: relative;
+  background-color: orangered;
+}
+.usedcars .box:nth-child(2) span {
+  color: white;
+}
+.usedcars .box:nth-child(2)::before {
+  display: block;
+  clip-path: polygon(54% 100%, 0 0, 100% 0);
+  position: absolute;
+  bottom: -44%;
+  width: 25px;
+  height: 15px;
+  left: 40%;
+  content: '';
+  background-color: orangered;
+}
+
+@media (max-width: 576px) {
+  .header {
+    display: none;
+  }
+
+  .header2 {
+    display: none;
+  }
+
+  .header3 {
+    display: none;
+  }
+
+  .header-phone {
+    display: block;
+  }
+
+  .header2-phone {
+    display: block;
+  }
+
+  .header3-phone {
+    display: block;
+  }
+
+  .sliderall {
+    display: none;
+  }
+
+  .sliderall-phone {
+    display: block;
+  }
+
+  .opentab {
+    margin: auto;
+    text-align: center;
+  }
+  .opentab .text select {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .opentab .text button {
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .popular .box-text {
+    font-size: 24px;
+    text-align: left;
+  }
+
+  .cars .box .image-text {
+    text-align: left;
+  }
+
+  .counterup .box {
+    margin-top: 20px;
+  }
+
+  .popularused .box-text {
+    font-size: 24px;
+  }
+  .popularused .box-text::before {
+    left: 40%;
+  }
+
+  .usedcars .box {
+    margin-top: 20px;
+  }
+  .usedcars .box::before {
+    left: 50%;
+  }
+  .usedcars .box i {
+    display: none;
+  }
+  .usedcars .box:nth-child(2) {
+    background-color: orangered;
+  }
+  .usedcars .box:nth-child(2)::before {
+    left: 50%;
+  }
+  .usedcars .box:nth-child(2) i {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
